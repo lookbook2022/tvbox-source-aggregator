@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 # 取消注释并替换为你自己的域名和 Zone ID
 # routes = [
 #    { pattern = "tvbox.sunas.de5.net/*", zone_id = "4dcbc4d42038472990294c3ef961c994" }
- ]
+# ]
 
 [triggers]
 crons = ["0 * * * *"]  # 每小时触发，实际执行频率由 Admin 设置的聚合间隔控制
